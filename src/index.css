@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply transition-colors duration-300;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+input[type="range"] {
+  @apply accent-blue-600;
+}
